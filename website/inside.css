@@ -1,0 +1,259 @@
+*{margin:0;padding:0}
+
+body{
+	
+background-color:white;	
+	
+	
+}
+
+#wrapper{
+	
+	margin:15px;
+
+	
+	
+	
+	
+}
+#header{
+	
+	
+	background-color:blue;
+	
+
+padding:15px;	
+	
+}
+#header h1{
+	
+	
+color:white;
+font-family:georgia;
+margin-bottom:3px;	
+font-size:23px;
+	
+}
+#header p{
+	
+	color:#788420;
+	margin-bottom:3px;
+	font-family:arial;
+	
+}
+#nav{
+	
+	height:40px;
+background-color:white;	
+border-bottom:5px solid blue;
+border-top:5px solid blue;
+	
+}
+#nav ul{
+	
+	background-color:white;
+	list-style-type:none;
+	z-index:999;
+	
+}
+#nav ul li{
+	
+	float:left;
+	border-right:1px solid black;
+	
+	
+}
+#nav ul li a {
+	
+	text-decoration:none;
+	color:black;
+	display:block;
+	padding:10px 20px;
+	font-family:arial;
+	
+	
+}
+#nav ul li:last-child{
+	
+	border:none;
+	
+}
+#nav ul li a:hover{
+	
+background:blue;
+
+}
+#nav ul li ul{
+
+position:absolute;
+left:-99999px;
+background-color:white;	
+	
+	
+}
+#nav ul li{
+	
+position:relative;	
+	
+}
+#nav ul li:hover ul{
+	left:0;
+	
+}
+#nav ul li ul li{
+	
+	float:none;
+	border-right:none;
+	border-bottom:1px solid black;
+	width:150px;
+	
+	
+}
+h6{
+	
+	
+	
+}
+
+
+
+#slider_wrapper img{
+	width:500px;
+	vertical-align:middle; /*removing by default bottom gap of the image */
+	
+	
+}
+#maincontent{
+	
+background-color:white;	
+border-top:5px solid blue;
+border-bottom:5px solid blue;
+padding:10px;
+overflow:hidden;/* as we can get exact background when t is overflowed */
+	
+}
+#content{
+	
+width:620px;
+margin-right:60px;
+font-family:arial;
+float:left;
+	
+	
+	
+}
+#content h2{
+	
+	
+	color:black;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family:arial;
+	font-size:23px;
+}
+#content h3{
+	
+	
+	color:black;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family:arial;
+	font-size:23px;
+}
+#content h4{
+	
+	
+	color:black;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family:arial;
+	font-size:23px;
+}
+#content h5{
+	
+	
+	color:black;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family:arial;
+	font-size:23px;
+}
+#content h6{
+	
+	
+	color:black;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family:arial;
+	font-size:23px;
+}
+#content h7{
+	
+	
+	color:black;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family:arial;
+	font-size:23px;
+}
+#content img{
+	width:300px;
+	
+}
+#content figure{
+width:300px;
+padding:10px;
+background-color:#ddd;
+font-family:arial;	
+	
+	
+	
+}
+#content figcaption{
+	
+	text-align:center;
+	font-weight:bold;
+	
+	
+}
+
+
+
+
+
+#sidebar{
+	
+	
+	
+	width:60px;
+	float:left;
+}
+#sidebar ul li{
+	
+	
+
+	
+	
+}
+#foot{
+	
+	background-color:blue;
+	color:white;
+	padding: 15px;
+	text-align:center;
+	
+}
+
+#social{
+	
+	list-style-type:none;		
+	
+}
+
+#social li{
+		/* to make them beside,(left and right) from top to bottom */
+	
+	
+	Display:inline;
+}
+

@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Recharge</title>
+	
+	<link rel="stylesheet" href="4thpage.css" />
+		<link rel="icon" href="img/icon.png"/>
+
+</head>
+<body>
+	
+	<div id="wrapper">
+	<header>
+	
+	<div id="header">
+	
+	
+	<h1>Recharge</h1>
+	<p>/Telecommunication</p>
+	
+	</div>
+	
+	
+	</header>
+	
+	<nav>  
+	
+	<div id="nav">
+	<ul>
+	
+	<li><a href="mywebsite.html">Home</a></li>
+	<li><a href="inside.html">About Wn</a></li>
+	<li><a href="3rdpage.html">services</a>
+	<ul>
+	
+	
+	
+
+	<li><a href="">Telecoms Billing Overview</a></li>
+	<li><a href="">Telecoms Billing Software</a></li>
+	<li><a href="">Asterisk Telecom Billing</a></li>
+	<li><a href="">Telecoms Billing pricing</a></li>
+	<li><a href="">Telecoms Billing CaseStudy</a></li>
+
+		
+	
+	</ul>
+	
+	</li>
+	
+<li><a href="#">Recharge</a></li>
+	<li><a href="5thpage.html">contact us</a></li>
+	<li><a href="#">Blog</a></li>
+	
+	
+	
+	</ul>
+	
+	
+	</div>
+	
+	
+	</nav>
+	
+	<section>
+	
+	
+	<div id="rechargeText">
+      <p>Please enter wn Customer ID or Phone Number (Here, Cutomer ID for Internet &amp; Phone No for Bulksms or Voice ), choose Service type and put desired amount, email &amp; valid 11 digit contact number. Press 'Recharge now' to proceed to the payment confirmation page. You will get a recharge confimation SMS on this contact number.</p>
+      </div>
+	</div>
+	
+	</section>
+	
+	<div  id="maincontent">
+        <div class="col-md-12">
+          <form class="rankstel_form form-horizontal" action="" method="post" data-toggle="validator">
+            <input type="hidden" name="recharge_form" value="recharge_form">
+            <div id="hasErrorAmount" class="form-group">
+                          </div>
+            <div id="hasErrorAmount" class="form-group">
+              <label class="error" id="cp_error_msg"></label>
+              <label for="recharge_labbel" class="col-xs-4 control-label lableclass">Customer ID/Phone No</label>
+              <div class="col-sm-4 col-xs-8  mobile_other mobile_data">
+                <input maxlength="15" minlength="6" type="text" name="customer_phone" class="form-control" id="customer_phone" required="" placeholder="Enter your ID/Phone No." data-error="Enter your ID/Phone." autocomplete="off" value="">
+                <div id="cp-error" class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div id="hasErrorAmount" class="form-group" style="margin-bottom: 10px;">
+                <label for="recharge_labbel" class="col-xs-4 control-label lableclass">Service Type</label>
+                  <div class="btn-group col-sm-4 col-xs-8" data-toggle="buttons">
+                  <label class="btn btn-seg btn-pre active">
+                    <input name="radio_recharge_plan" id="voice" value="voice" type="radio" checked="">
+                    Voice </label>
+                  <label class="btn btn-seg btn-pos">
+                    <input name="radio_recharge_plan" id="bulksms" value="bulksms" type="radio">
+                    Bulk SMS </label>
+                   <label class="btn btn-seg btn-pos">
+                    <input name="radio_recharge_plan" id="internet" value="internet" type="radio">
+                    Internet </label>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            <div id="hasErrorAmount" class="form-group">
+              <label class="error" id="amount_error_msg"></label>
+              <label for="recharge_labbel" class="col-xs-4 control-label lableclass amount-lbl">Amount (Taka)</label>
+              <div class="col-sm-4 col-xs-8  mobile_other mobile_data">
+                <input type="text" name="amount" class="form-control" id="amountToRecharge" required="" placeholder="Enter your recharge amount" data-error="Please enter recharge amount." autocomplete="off" value="">
+                <div id="amount-error" class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="error" id="email_error_msg"></label>
+              <label for="recharge_labbel" class="col-xs-4 control-label lableclass">Email (Optional)</label>
+              <div class="col-xs-8 col-sm-4">
+                <input type="email" name="email" class="form-control" autocomplete="off" id="emailid" placeholder="Enter your email address" data-error="Please give a correct e-mail address." value="">
+              </div>
+            </div>
+            <div id="hasErrorAmount" class="form-group">
+              <label class="error" id="amount_error_msg"></label>
+              <label for="recharge_labbel" class="col-xs-4 control-label lableclass amount-lbl">Mobile Number</label>
+              <div class="col-sm-4 col-xs-8  mobile_other mobile_data">
+                <input type="text" name="mobile_number" class="form-control" id="mobile_number" required="" placeholder="Enter your Mobile Number" data-error="Please enter mobile number." autocomplete="off" value="">
+                <div id="amount-error" class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="form-group ">
+              <div class="col-xs-offset-4 col-xs-8 button_sub">
+                <button type="submit" name="submit" id="submit-btn" class="btn btn-success recharge" disabled="">Recharge now</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <p>By clicking recharge now, I accept RanksTel's <a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">Terms &amp; Conditions.</a></p>
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4>Terms &amp; Conditions</h4>
+                <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>All airtime sales are final and non-refundable.</li>
+                  <li>No additional fee or charges are added by PortWallet for airtime recharge service.</li>
+                  <li>If you are the requester, please wait up to 30 minutes to receive a SMS and email confirmation for the number you have specified.</li>
+                  <li>PortWallet will assume no liability if the recipients mobile number is entered incorrectly and no refunds will be issued.</li>
+                  <li>If you have accidentally chosen the wrong connection type, open a support ticket immediately by contacting <a href="http://support.portwallet.com/">support.portwallet.com</a> </li>
+                  <li> PortWallet will not reconcile any complaints made after 5 days of the actual transaction. Failure to do so within the maximum stipulated time will be considered successful.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+	<div id="content">   
+	<article>
+	
+	<figure>
+
+	</figure>
+	
+	
+	
+	
+	</article>
+	</div>
+	
+	<div id="sidebar">
+	
+
+	
+	</div>
+	
+	</div>
+	
+	<footer>
+	
+	<div id="foot">
+	
+	<p>All right reserved by mywebsite.com</p>
+	
+	</div>
+	
+	
+	</footer>
+	</div>
+	
+	
+</body>
+</html>

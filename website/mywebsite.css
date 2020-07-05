@@ -1,0 +1,179 @@
+*{margin:0;padding:0}
+
+body{
+	
+background-color:white;	
+	
+	
+}
+
+#wrapper{
+	
+
+	margin:0 auto;
+	
+	
+	
+}
+#header{
+	
+	
+	background-color:black;
+	padding:15px;
+
+	
+	
+	
+}
+#header h2{
+	
+	
+color:white;
+font-family:georgia;
+margin-bottom:3px;	
+	
+	
+}
+#header p{
+	
+	color:#BDC1C2;
+	margin-bottom:3px;
+	
+}
+#nav{
+	
+	height:40px;
+background-color:white;	
+border-bottom:5px solid blue;
+border-top:5px solid blue;
+	
+}
+#nav ul{
+	
+	background-color:white;
+	list-style-type:none;
+	z-index:999;
+	
+}
+#nav ul li{
+	
+	float:left;
+	border-right:1px solid black;
+	
+	
+}
+#nav ul li a {
+	
+	text-decoration:none;
+	color:black;
+	display:block;
+	padding:10px 20px;
+	font-family:arial;
+	
+	
+}
+#nav ul li:last-child{
+	
+	border:none;
+	
+}
+#nav ul li a:hover{
+	
+background:blue;
+}
+#nav ul li ul{
+
+position:absolute;
+left:-99999px;
+background-color:white;	
+	
+	
+}
+#nav ul li{
+	
+position:relative;	
+	
+}
+#nav ul li:hover ul{
+	left:0;
+	
+}
+#nav ul li ul li{
+	
+	float:none;
+	border-right:none;
+	border-bottom:1px solid black;
+	width:150px;
+	
+	
+}
+h6{
+	
+	
+	
+}
+
+
+
+#slider_wrapper img{
+	width:500px;
+	vertical-align:middle; /*removing by default bottom gap of the image */
+	
+	
+}
+#maincontent{
+	
+background-color:white;	
+border-top:5px solid blue;
+border-bottom:5px solid blue;
+padding:10px;
+overflow:hidden;/* as we can get exact background when t is overflowed */
+	
+}
+#content{
+	
+width:620px;
+margin-right:60px;
+float:left;
+	
+	
+	
+}
+
+#content img{
+	width:250px;
+	border:1px #ddd;
+height:250px;
+padding:3px;
+margin-right:10px;
+float:left;
+	
+	
+	
+}
+#content h2{
+	
+	
+}
+#sidebar{
+	
+	
+	
+	width:260px;
+	float:left;
+}
+#sidebar ul li{
+	
+	
+
+	
+	
+}
+#foot{
+	
+	background-color:blue;
+	color:white;
+	padding:10px;
+	text-align:center;
+	
+}

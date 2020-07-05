@@ -1,0 +1,149 @@
+  
+  
+  
+  
+  
+  section 1
+  lab instructor: kazi kowshin raihana
+  
+  group members name:         id
+  
+ 1 mst shapna akter            1721568042
+ 2 anika tahsin meem           1721810642
+ 3 sanjida islam anika         1721985642
+ 
+ 
+ project name: Online hospital management system.
+ 
+ 
+ 
+ purpose:
+ hospitals are essential part of our lives,providing best medical facilities to people suffering from various ailments,which may be due to change in climatic condition ,increased work-load,emotional stress etc.It is necessary for the hospitals to keep track of its day to day  activities and records of its patients,doctors,nurses,ward boys and other staff personals that keep the hospital running smoothly and successfully.
+ but keeping track of all the activities and their records on paper is very cumbersome and error prone.it also inefficient and a time consuming process observing the continuous increase in population and number of people visitng the hospital.recording and maintaining all these records is highly unreliable ,ineffcient and error prone.it is also not economically and technically feasible to maintain these records on paper.
+ thus keeping the working of the manual system as the basis of our project .we have developed an automated version of the manual system as the basis of our project .we will develop an automated version of the manual system, named as "Online hospital management system".
+ the main purpose of our project is to provide a paper-less hospital up to 90%.it also aims at providing low cost reliable automation of the existing systems.te system also provides excellent security of data at every level of user-system interaction and also provide robust and reliable storage and backup facilities.
+ 
+ 
+ features:
+  Login:  Same page for every group of user: 
+  A simple login page for all users where users need to select their desired category to log in. After providing the proper user name and password you will be able to log in and enjoy all those features that are designed for you. This is a single interface for all groups of people associated with the system. 
+ 
+ User Groups: 
+ 
+There are three categories for users. The features will vary depending on your user type. You will be able to perform certain task in a category which may not be necessary for other categories. 
+
+ 
+ 
+ 
+1. Management: 
+ 
+Management has the power to create user profile both for patients and doctors. They will be responsible for approving appointments and monitor through pending test reports. They will have the most important things to do. As many important things will depend on their action. 
+ 
+ 
+ 
+2. Patient: 
+ 
+Patients are normal users like us. We will be able to browse through available doctors and ask for appointments. We can also check our previous history. The patient’s functionality is limited based on their need. They will only be able to change their personal information and other things. Obviously they can look for their desired doctors to request an appointment. 
+ 
+ 
+ 
+ 
+3. Doctor: 
+ 
+Doctors can check appointments and also set appointment by their own. They can start prescribing their patients by clicking the appointment list. It will directly lean them for the prescription page. The prescription page has a lot of automated features for the doctor to set things and assign to their patients. Every field that is necessary for a doctor to make a perfect prescription is available. Which will obviously reduce the workload of doctors and they can give proper time to patients. There will be few clicks for them to make a proper prescriptions. 
+
+
+
+
+
+                                                                  MANAGEMENT FEATURES
+
+
+
+
+
+
+
+Add patient:
+
+Management will add patients to the database by this page. They have to take full details of the patient and then add their name, gender, age, address, set user name and password and finally take phone number. Phone number is the tracking key for the user. It has been assigned as the primary key. The responsibility of management is always high. They have to make sure that they enter the every field correctly so the patient does not get into any trouble. If they make any mistake then it will become hard for us to reach our goal. They need to be very cautious specially while inserting the age and phone number. The phone number has other importance as it will be the identity of all the users associated with the system. 
+
+
+Add Doctor :
+ 
+This is another important responsibility for the management. They have to add doctor account in details. There is various things for a doctor. Under personal details, doctor information, chamber information, settings there are several details for the doctor to be added. After successful insertion of a doctor the management can assign them patients and appoint them for requests. All those information from every tab needs to be inserted carefully as it will show up with the doctors details. If they insert less information then the patients will not be able to see all information of the doctor. This can lead to a situation where the system may not provide the promised benefit for us. So the management needs to be careful about this. 
+
+
+
+
+ Add appointment :
+ 
+Management can manually set an appointment for any user, if they ask so. They will have to select the doctor’s name, patients name and date to add an appointment. This will add appointment for the doctor and patient both. The appointment section also have great importance. This gives the power for all to save time and reduce hassle. A patient can only ask for appointment but the management needs to set the appointment for them. The management has some important duty here. They have to check whether the doctor is free or not. This will reduce the chance of getting multiple appointment for one doctor at a time. The doctors can also set appointment for them when they need to. This will be directly assigned for them and the management will not have anything to do with this. 
+
+
+Appointment request :
+ 
+This is another very important responsibility for the management to approve appointments. Patients can request for an appointment form home but to get that appointment management has to approve it. They will find pending appointments and depending on the availability of doctors the can set those appointments or discard them. All those pending appointments appears here for the management and they can take appropriate actions. This will be first thing for the management to check at the beginning of the day and take proper actions. After their action the people associated with it will be notified. Both party doctor and patient will get information about their appointment after it is set. This proves the importance of this step. Those appointments that are directly set by doctors does not require any of this step to set those appointment. 
+
+
+ Pending Tests :
+ 
+Management will see pending tests that are assigned to patients by doctors. They need to complete those tests and report to those patients. Patients will also see their tests pending until management clears it. This will appear based on time on the management profile. They will get a healthy queue of tests that will allow them proper ordering of tests without maintaining any extra queue or something else. This is also beneficial for us and the management too. Patients can take tests and go home. Their test reports will be available for them online as they are done. While checking for the pending tests they will be able to track the change and see test results.
+
+
+ 
+ 
+                                                    PATIENT FEATURES
+													
+
+
+Personal details:
+
+After logging in patients will see a brief description of themselves. There will appear their name, age, gender, address, username and password. Every single important details that is necessary will be there for them. This is just the profile page for a patient. They do not many actions to take from here but they can check and change their information in this page. 
+
+
+History:
+
+In the history section of the patient page they will be able to check their previous prescriptions if they have one. This will come handy for a lot of people. It is very common for us to loose prescriptions all the time. Rather than the profile page history contains most important things for a patient. They can check their prescriptions from a list where prescriptions will appear by date they were assigned to them. We will be able to check our old prescriptions or new prescriptions whenever we like to do that. This is something that brings you the opportunity to stay close with every information that we need to tackle our disease and disaster. 
+   													
+
+Appointment request:
+In this section a patient will be able to browse throw all the doctors available and ask for appointment for their desired doctor. They will have to wait for confirmation form the management when they approve the appointment request. Another important feature for a patient to set appointment with their desired doctors from sitting at home. We cannot think of anything yet like this. We can now ask for appointments over phone but it is not as convenient as this where you can get your desired things with just several clicks and without any waiting. 
+
+
+Pending test:
+Patient will be able to follow their tests that are pending. It will disappear after the test is complete. This will allow them to know their tests when complete. They will no longer need to go or call someone to know whether their tests are complete or not. The name of the doctor who assigned the test and the test name will appear here. This is also something that can make our hospital experience better than it is now. So we can expect that this will help us a lot from various direction.   													
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+                                                         DOCTOR FEATURES
+  
+ Appointment:
+After logging in doctors will directly see their appointments. This will help them to know what they have to do. By clicking on the patients name they will be able to prescribe them and assign them test or follow up. A complete page of actions that a doctor needs to take. 
+
+
+New appointment:  A doctor will also be able to set appointment by himself like management. If a doctor sets appointment by himself then it will not remain pending. It does not have to do anything with the management to approve or anything else. This will add the appointment straight forward. 
+
+
+OT schedule:
+In this section a doctor will be able to see his upcoming operation lists. Management will assign those operation for them and they can check for their schedule any time they want to do that. This will help doctors manage their time well. Doctors will easily find out when they are free and when they have work. 
+
+
+Patient history:
+Another very important feature for a doctor. They can check their appointments and other patients which they have already visited. A doctor can select a date and check for the number of patients to him on 
+
+
+Settings:Management will assign user name and password for a doctor. A doctor will be able to change his password under this setting section. This gives them the chance to choose a new password whenever they need one.  
+  
+  
+  
+  
+  
